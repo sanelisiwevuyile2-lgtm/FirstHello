@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+playwright-report/
+test-results/
+# FirstHello local friendship memories
+demo_birthdays.json
+# Personal learning notes
+LEARN_TO_EXPLAIN.md

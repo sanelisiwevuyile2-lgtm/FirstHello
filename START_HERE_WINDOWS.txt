@@ -1,0 +1,19 @@
+FIRSTHELLO v5 — SIMPLE WINDOWS STEPS
+
+1) Right-click the ZIP and choose EXTRACT ALL.
+2) Open the FirstHello_v5_AI_Portfolio folder that contains app.py.
+3) Click File Explorer's address bar, type cmd, press Enter.
+4) Type: py app.py
+5) Go to: http://127.0.0.1:8772
+
+NOTE: Stop Version 3/4 first if it's using port 8772 (Ctrl+C in old CMD).
+No packages to install. The app works offline using the existing rules.
+
+TO TURN ON REAL LOCAL AI (OPTIONAL):
+1) Download Ollama: https://ollama.com/download/windows
+2) In a new CMD, enter: ollama pull gemma3:1b
+3) Leave Ollama running; refresh FirstHello and tap Conversation Coach.
+4) Suggestions should say 'Local AI' if successful; otherwise show 'Offline rules'.
+
+Test: py -m unittest discover -s tests -v
+Read LEARN_TO_EXPLAIN.md and docs/ASSESSMENT_AND_TESTING.md before applying.
